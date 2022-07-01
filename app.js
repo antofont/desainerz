@@ -51,6 +51,7 @@ function openNav() {
   document.getElementById("main").style.marginLeft= "50px";
   document.getElementById("mySidebar").style.width = "55px";
   document.getElementById("main-2").style.marginLeft= "-50px";
+  document.getElementById("tuttiContenitori").style.marginRight= "0px";
   document.getElementById("tuttiContenitori").style.marginLeft= "0px";
 }
 
@@ -59,7 +60,8 @@ function closeNav() {
   document.getElementById("mySidebar").style.width = "0px";
   document.getElementById("main").style.marginLeft= "-50px";
   document.getElementById("main-2").style.marginLeft= "0px";
-  document.getElementById("tuttiContenitori").style.marginLeft= "-50px";
+  document.getElementById("tuttiContenitori").style.marginRight= "40px";
+  document.getElementById("tuttiContenitori").style.marginLeft= "-40px";
 }
 
 
