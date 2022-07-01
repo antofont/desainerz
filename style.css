@@ -389,11 +389,13 @@
   margin: 50px;
 }
 
-.pulsanteVai h1{
+.pulsanteVai a{
   color: #ffffff;
   font-size: 15pt;
   text-align: center;
   cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
