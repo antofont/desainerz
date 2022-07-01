@@ -359,6 +359,41 @@
   line-height: 1.5;
 }
 
+.presentazione {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px;
+}
+
+.titolo {
+  padding: 20px;
+  text-align: center;
+}
+
+.descrizione {
+  text-align: center;
+  line-height: 1.8;
+}
+
+.pulsanteVai {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f20574;
+  border-radius: 50px;
+  width: 200px;
+  padding: 10px;
+  margin: 50px;
+}
+
+.pulsanteVai h1{
+  color: #ffffff;
+  font-size: 15pt;
+  text-align: center;
+  cursor: pointer;
+}
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 900px) {
