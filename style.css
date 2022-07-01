@@ -367,9 +367,12 @@
   margin: 50px;
 }
 
+.tutto {
+  background-image: url(immagini/Risorsa\ 9divisa.png);
+}
 
 .titolo {
-  padding: 20px;
+  padding: 30px;
   text-align: center;
 }
 
@@ -384,14 +387,14 @@
   align-items: center;
   background-color: #f20574;
   border-radius: 50px;
-  width: 200px;
+  width: 150px;
   padding: 10px;
   margin: 50px;
 }
 
 .pulsanteVai a{
   color: #ffffff;
-  font-size: 15pt;
+  font-size: 12pt;
   text-align: center;
   cursor: pointer;
   text-decoration: none;
@@ -541,6 +544,6 @@
 }
 
 .contenitoreFoto img{
-  width: 200px;
+  width: 300px;
 }
 }
