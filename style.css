@@ -364,8 +364,9 @@
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  margin: 100px;
+  margin: 50px;
 }
+
 
 .titolo {
   padding: 20px;
@@ -526,5 +527,18 @@
 
 .footer {
   margin-top: 400px;
+}
+
+
+.titolo {
+  font-size: 18pt;
+}
+
+.descrizione {
+  font-size: 10pt;
+}
+
+.contenitoreFoto img{
+  width: 200px;
 }
 }
