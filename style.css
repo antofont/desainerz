@@ -60,7 +60,7 @@
   .logo{
     display: flex;
     flex-wrap: wrap;
-    margin: 100px;
+    margin: 50px;
     padding: 100px;
     justify-content: center;
     align-items: center;
@@ -76,6 +76,7 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    margin: 50px;
   }
   
   .bottone {
@@ -465,7 +466,8 @@
   }
 
   .logo img{
-    width: 250px;
+    margin-top: 50px;
+    width: 300px;
     height: auto;
   }
 
